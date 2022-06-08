@@ -100,6 +100,9 @@
 
 .main h2 {
     padding: 20px;
+    animation-name: cambioColorMenu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .main p {
@@ -158,6 +161,21 @@
 
 .footerInstagram {
     color: #D18ABB;
+}
+/* ANIMACIONES */
+@keyframes cambioColorMenu{
+    0%{
+        color: blue;  
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: orange;
+    }
+    100%{
+        color: yellow;
+    }
 }
 
 @media (max-width: 815px) {
