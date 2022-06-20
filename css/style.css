@@ -23,7 +23,7 @@
     grid-area: menu;
     display: flex;
     justify-content:space-between;
-    margin-right: 30px ;
+    font-size: 20px;
 }
 
 
@@ -37,7 +37,7 @@
 
 
 .logo {
-    padding: 20px;
+    padding: 5px;
 }
 
 /* ACA EMPIEZA EL MAIN */
@@ -53,9 +53,11 @@
 .cForm {
     grid-area: form;
     padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 
 .cForm h4 {
@@ -73,12 +75,19 @@
 .main {
     padding: 20px;
     grid-area: main;
+}
 
+.peliculas{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 }
 
 .novedades {
     grid-area: novedades;
     display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -197,6 +206,14 @@
         align-items: center;
     }
 
+    .main {
+        grid-area: main;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .menu ul {
         display: flex;
@@ -207,5 +224,7 @@
         grid-area: novedades;
         display: flex;
         flex-direction: column;
+        padding-left: 1rem;
+        align-items: center;
     }
 }
