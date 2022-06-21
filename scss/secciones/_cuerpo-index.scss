@@ -1,0 +1,64 @@
+.imgHistoria {
+    float: left;
+}
+
+.imgHistoria2 {
+    float: right;
+}
+
+.main {
+    padding: 20px;
+    grid-area: main;
+}
+
+
+
+.novedades {
+    grid-area: novedades;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #191919;
+    border-color: #191919;
+    font-size: 20px;
+}
+
+.main{
+  h2{ 
+    padding: 20px;
+    animation-name: cambioColorMenu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+  p{
+    padding-left: 20px;
+    text-align: center;
+}
+
+  img{
+    padding: 20px;
+}
+}
+
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #C84B31;
+}
+
+.card-link:hover {
+    color: #FFBD35;
+}
+
+.mainComics {
+    float: left;
+}
