@@ -12,12 +12,10 @@
         "main      main      main"
         "form      form      form"
         "footer    footer    footer";
-    background-color: #191919;
-    color: #C84B31;
     font-family: 'Comic Neue', cursive;
 }
 
-@import './secciones/contacto'; 
+@import './secciones/contacto';
 @import './secciones/cuerpo-index';
 @import './secciones/footer';
 @import './secciones/historia';
@@ -63,6 +61,9 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        h1{
+            display: none;
+        }
     }
 
 
@@ -70,12 +71,5 @@
         display: flex;
         flex-direction: column;
     }
-
-    .novedades {
-        grid-area: novedades;
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-        align-items: center;
-    }
 }
+

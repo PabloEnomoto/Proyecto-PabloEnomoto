@@ -1,71 +1,26 @@
-.imgHistoria {
-    float: left;
-}
-
-.imgHistoria2 {
-    float: right;
-}
-
 .main {
-    padding: 20px;
     grid-area: main;
+    background-color: white;
 }
 
-
-
-.novedades {
-    grid-area: novedades;
-    display: flex;
-    justify-content: center;
-}
-
-.card {
-    background-color: #191919;
-    border-color: #191919;
-    font-size: 20px;
+.mainIndex{
+    padding: 330px;
+    padding-bottom: 150px;
+    background-image: url(/Multimedia/fondoMain.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .main{
-  h2{ 
-    padding: 20px;
-    animation-name: cambioColorMenu;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    text-align: center;
+  h1{ 
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-  p{
-    padding-left: 20px;
-    text-align: center;
-}
-
-  img{
-    padding: 20px;
-}
-}
-
-
-.images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card-link {
-    text-decoration: none;
-    color: #C84B31;
-}
-
-.card-link:hover {
-    color: #FFBD35;
-}
-
-.mainComics {
-    float: left;
 }
 
 #inicio{
-    display: flex;
-    background-color: #C84B31;
     text-decoration: none;
-      text-transform: uppercase;
+    text-transform: uppercase;
+    color: black;
+    border: none;
 }

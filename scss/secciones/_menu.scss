@@ -2,16 +2,17 @@
     grid-area: menu;
     display: flex;
     justify-content: flex-start;
-    font-size: 20px;
+    font-size: 10px;
+  }
+
+  .menu{
+    background-color:black
   }
   .menu a {
-    color: #C84B31;
+    color: #e1e8ef;
   
     &:hover {
-      color: #FFBD35;
+      color: #b7c2ce;
+      text-decoration:underline
     }
-  }
-  
-  .logo {
-    padding: 5px;
   }

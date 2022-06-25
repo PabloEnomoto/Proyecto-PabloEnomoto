@@ -1,0 +1,16 @@
+.historia{
+    grid-area: main;
+    background-color: #b7c2ce;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    text-align: justify;
+    font-weight: bold;
+    p{
+        border: 3px solid black;
+    }
+    h2{
+        border-bottom: 3px dotted black;
+    }
+}

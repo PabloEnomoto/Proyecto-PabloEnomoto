@@ -5,6 +5,7 @@
   
   .footer {
     grid-area: footer;
+    background-color: black;
   
     ul {
       font-size: 15px;
@@ -16,17 +17,19 @@
     a {
       text-decoration: none;
       text-transform: uppercase;
-      color: #C84B31;
+      color:#e1e8ef;
+
+      &:hover{
+        color: #b7c2ce;
+        text-decoration:underline
+      }
     }
   }
   
   .footerTwitter {
     color: #00ACEE;
   }
-  
-  .footer a:hover {
-    color: #FFBD35;
-  }
+
   
   .footerFacebook {
     color: #3b5998;

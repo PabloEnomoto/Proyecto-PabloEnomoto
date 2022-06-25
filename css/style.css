@@ -1,29 +1,19 @@
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 .grilla {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "menu      menu      menu"
-    "main      main      main"
-    "form      form      form"
-    "footer    footer    footer";
-  background-color: #191919;
-  color: #C84B31;
-  font-family: 'Comic Neue', cursive;
-}
-
+  grid-template-areas: "menu      menu      menu" "main      main      main" "form      form      form" "footer    footer    footer";
+  font-family: 'Comic Neue', cursive; }
 
 .formulario {
-  color: #C84B31;
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  padding: 30px;
-}
+  padding: 30px; }
 
 .cForm {
   grid-area: form;
@@ -32,161 +22,122 @@
   margin-right: 400px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-}
-
-.cForm h4 {
-  padding: 15px;
-}
-
-.imgHistoria {
-  float: left;
-}
-
-.imgHistoria2 {
-  float: right;
-}
+  align-items: stretch; }
+  .cForm h1 {
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center; }
 
 .main {
-  padding: 20px;
   grid-area: main;
-}
+  background-color: white; }
 
-.novedades {
-  grid-area: novedades;
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  background-color: #191919;
-  border-color: #191919;
-  font-size: 20px;
-}
+.mainIndex {
+  padding: 330px;
+  padding-bottom: 150px;
+  background-image: url(/Multimedia/fondoMain.png);
+  background-repeat: no-repeat;
+  background-position: right; }
 
 .main h1 {
-  padding: 20px;
-  animation-name: cambioColorMenu;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  text-align: center;
-}
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
-.main p {
-  padding-left: 20px;
-  text-align: center;
-}
-
-.main img {
-  padding: 20px;
-}
-
-.images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card-link {
+#inicio {
   text-decoration: none;
-  color: #C84B31;
-}
-
-.card-link:hover {
-  color: #FFBD35;
-}
-
-.mainComics {
-  float: left;
-}
+  text-transform: uppercase;
+  color: black;
+  border: none; }
 
 .historiaParrafo {
   font-size: 20px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .footer {
   grid-area: footer;
-}
-
-.footer ul {
-  font-size: 15px;
-  text-align: right;
-  margin: 20px;
-  margin-right: 30px;
-}
-
-.footer a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #C84B31;
-}
+  background-color: black; }
+  .footer ul {
+    font-size: 15px;
+    text-align: right;
+    margin: 20px;
+    margin-right: 30px; }
+  .footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e1e8ef; }
+    .footer a:hover {
+      color: #b7c2ce;
+      text-decoration: underline; }
 
 .footerTwitter {
-  color: #00ACEE;
-}
-
-.footer a:hover {
-  color: #FFBD35;
-}
+  color: #00ACEE; }
 
 .footerFacebook {
-  color: #3b5998;
-}
+  color: #3b5998; }
 
 .footerInstagram {
-  color: #D18ABB;
-}
+  color: #D18ABB; }
+
+.historia {
+  grid-area: main;
+  background-color: #b7c2ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  text-align: justify;
+  font-weight: bold; }
+  .historia p {
+    border: 3px solid black; }
+  .historia h2 {
+    border-bottom: 3px dotted black; }
 
 .header {
   grid-area: menu;
   display: flex;
   justify-content: flex-start;
-  font-size: 20px;
-}
+  font-size: 10px; }
+
+.menu {
+  background-color: black; }
 
 .menu a {
-  color: #C84B31;
-}
-
-.menu a:hover {
-  color: #FFBD35;
-}
-
-.logo {
-  padding: 5px;
-}
+  color: #e1e8ef; }
+  .menu a:hover {
+    color: #b7c2ce;
+    text-decoration: underline; }
 
 .peliculas {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .imgPeliculas {
-  display: flex;
-}
+  display: flex; }
 
+.imgHistoria {
+  float: left;
+  margin: 20px; }
+
+.main p {
+  font-weight: bold;
+  padding-bottom: 100px; }
+
+.main h1 {
+  margin: 20px; }
 
 /* ANIMACIONES */
 @keyframes cambioColorMenu {
   0% {
-    color: blue;
-  }
-
+    color: blue; }
   25% {
-    color: green;
-  }
-
+    color: green; }
   50% {
-    color: orange;
-  }
-
+    color: orange; }
   100% {
-    color: yellow;
-  }
-}
+    color: yellow; } }
 
 @media (max-width: 815px) {
   .header {
@@ -194,27 +145,15 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
   .main {
     grid-area: main;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-  }
-
+    align-items: center; }
+    .main h1 {
+      display: none; }
   .menu ul {
     display: flex;
-    flex-direction: column;
-  }
-
-  .novedades {
-    grid-area: novedades;
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    align-items: center;
-  }
-}
+    flex-direction: column; } }
