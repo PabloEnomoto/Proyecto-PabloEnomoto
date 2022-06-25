@@ -1,4 +1,4 @@
-.historia{
+.historia {
     grid-area: main;
     background-color: #b7c2ce;
     display: flex;
@@ -7,10 +7,19 @@
     margin: 25px;
     text-align: justify;
     font-weight: bold;
-    p{
+
+    p {
         border: 3px solid black;
     }
-    h2{
+
+    h2 {
         border-bottom: 3px dotted black;
+    }
+
+    button {
+        a {
+            @include btn-irArriba (black, none)
+        }
+
     }
 }

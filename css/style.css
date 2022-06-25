@@ -34,15 +34,23 @@
   background-color: white; }
 
 .mainIndex {
-  padding: 330px;
-  padding-bottom: 150px;
+  grid-area: main;
   background-image: url(/Multimedia/fondoMain.png);
   background-repeat: no-repeat;
-  background-position: right; }
+  background-position: right;
+  width: 50vw;
+  height: 45vw; }
 
 .main h1 {
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  height: 40vw;
+  width: 80vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column; }
 
 #inicio {
   text-decoration: none;
@@ -56,7 +64,8 @@
 
 .footer {
   grid-area: footer;
-  background-color: black; }
+  background-color: black;
+  width: 100vw; }
   .footer ul {
     font-size: 15px;
     text-align: right;
@@ -92,6 +101,10 @@
     border: 3px solid black; }
   .historia h2 {
     border-bottom: 3px dotted black; }
+  .historia button a {
+    text-decoration: none;
+    background-color: black;
+    text-transform: uppercase; }
 
 .header {
   grid-area: menu;
@@ -121,12 +134,16 @@
   float: left;
   margin: 20px; }
 
-.main p {
-  font-weight: bold;
-  padding-bottom: 100px; }
-
-.main h1 {
-  margin: 20px; }
+.mainPersonajes {
+  grid-area: main; }
+  .mainPersonajes p {
+    font-weight: bold;
+    padding-bottom: 100px; }
+  .mainPersonajes h1 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px; }
 
 /* ANIMACIONES */
 @keyframes cambioColorMenu {
@@ -152,8 +169,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center; }
-    .main h1 {
-      display: none; }
   .menu ul {
     display: flex;
     flex-direction: column; } }

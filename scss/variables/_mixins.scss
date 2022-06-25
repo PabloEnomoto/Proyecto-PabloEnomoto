@@ -1,0 +1,7 @@
+@mixin btn-irArriba ($colorFondo, $sinDecoracion){
+
+    text-decoration: $sinDecoracion;
+    background-color: $colorFondo;
+    text-transform: uppercase;
+
+}

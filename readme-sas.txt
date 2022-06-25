@@ -23,3 +23,43 @@
     a. abrir la consola con ctrl+ñb. npm run watch-css
     
 //FIN
+
+<-----------------------SEO-------------------------------->
+
+<------------INDEX----------------->
+AGREGUE LA DESCRIPTION
+description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos personajes, peliculas y series que han formado parte del equipo X-Men)
+AGREGUE LAS KEYWORDS
+keywords (x men, super heroes, marvel, mutantes, super poderes)
+
+<------------CONTACTO----------------->
+AGREGUE LA DESCRIPTION
+description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos personajes, peliculas y series que han formado parte del equipo X-Men)
+AGREGUE LAS KEYWORDS
+keywords (x men, super heroes, marvel, mutantes, super poderes contacto x men)
+
+<------------HISTORIA----------------->
+AGREGUE LA DESCRIPTION
+description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos personajes, peliculas y series que han formado parte del equipo X-Men)
+AGREGUE LAS KEYWORDS
+keywords (x men, super heroes, marvel, mutantes, super poderes historia x men)
+
+<------------PELICULAS----------------->
+AGREGUE LA DESCRIPTION
+description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos personajes, peliculas y series que han formado parte del equipo X-Men)
+AGREGUE LAS KEYWORDS
+keywords (x men, super heroes, marvel, mutantes, super poderes, peliculas x men)
+
+<------------PERSONAJES----------------->
+AGREGUE LA DESCRIPTION
+description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos personajes, peliculas y series que han formado parte del equipo X-Men)
+AGREGUE LAS KEYWORDS
+keywords (x men, super heroes, marvel, mutantes, super poderes, personajes x men)
+
+<------------SERIES----------------->
+AGREGUE LA DESCRIPTION
+description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos personajes, peliculas y series que han formado parte del equipo X-Men)
+AGREGUE LAS KEYWORDS
+keywords (x men, super heroes, marvel, mutantes, super poderes, series x men)
+
+el mixing lo puse en:

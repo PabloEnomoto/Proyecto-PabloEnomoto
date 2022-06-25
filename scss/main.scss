@@ -15,6 +15,12 @@
     font-family: 'Comic Neue', cursive;
 }
 
+//variables
+
+@import './variables/mixins';
+
+// import de paginas scss
+
 @import './secciones/contacto';
 @import './secciones/cuerpo-index';
 @import './secciones/footer';
@@ -61,9 +67,6 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        h1{
-            display: none;
-        }
     }
 
 
@@ -72,4 +75,3 @@
         flex-direction: column;
     }
 }
-
