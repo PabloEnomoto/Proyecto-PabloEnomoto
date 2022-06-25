@@ -1,12 +1,11 @@
 {
   "dependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.18"
   },
   "name": "2dodesafioproyectofinal-pabloenomoto---copia",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
@@ -22,5 +21,6 @@
     "url": "https://github.com/PabloEnomoto/Proyecto-PabloEnomoto/issues"
   },
   "homepage": "https://github.com/PabloEnomoto/Proyecto-PabloEnomoto#readme",
+  "devDependencies": {},
   "description": ""
 }
