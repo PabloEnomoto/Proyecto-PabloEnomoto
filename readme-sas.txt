@@ -62,4 +62,9 @@ description (Adentrate en nuestra pagina para conocer a fondo a todos aquellos p
 AGREGUE LAS KEYWORDS
 keywords (x men, super heroes, marvel, mutantes, super poderes, series x men)
 
-el mixing lo puse en:
+<------------MIXIN----------------->
+lo agregue en el scss _historia, para darle estilo al boton que te lleva al principio de la pagina
+    button {
+        a {
+            @include btn-irArriba (black, none)
+        }
