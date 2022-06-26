@@ -35,18 +35,17 @@
 
 .mainIndex {
   grid-area: main;
-  background-image: url(/Multimedia/fondoMain.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 65vw;
-  height: 45vw; }
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
 
 .main h1 {
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
   height: 40vw;
-  width: 80vw;
+  width: 20vw;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -98,7 +97,9 @@
   text-align: justify;
   font-weight: bold; }
   .historia p {
-    border: 3px solid black; }
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px; }
   .historia h2 {
     border-bottom: 3px dotted black; }
   .historia button a {
@@ -138,23 +139,13 @@
   grid-area: main; }
   .mainPersonajes p {
     font-weight: bold;
-    padding-bottom: 100px; }
+    padding-bottom: 100px;
+    width: 90vw; }
   .mainPersonajes h1 {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px; }
-
-/* ANIMACIONES */
-@keyframes cambioColorMenu {
-  0% {
-    color: blue; }
-  25% {
-    color: green; }
-  50% {
-    color: orange; }
-  100% {
-    color: yellow; } }
 
 @media (max-width: 815px) {
   .header {
@@ -168,7 +159,25 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; }
+    align-items: justify; }
+  .mainIndex {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100vw;
+    margin-left: 100vw; }
+  .footer {
+    grid-area: footer;
+    background-color: black;
+    width: 200vw; }
   .menu ul {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .mainPersonajes {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .mainPersonajes p {
+      width: 100vw; } }
