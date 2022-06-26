@@ -6,7 +6,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "menu      menu      menu" "main      main      main" "main      main      main" "footer    footer    footer";
+  grid-template-areas: "menu      menu      menu"
+ "main      main      main"
+ "main      main      main"
+ "footer    footer    footer";
   font-family: 'Comic Neue', cursive; }
 
 .formulario {
@@ -35,7 +38,7 @@
 .cForm {
   grid-area: main;
   padding-left: 30px;
-  background-image: url(/Multimedia/fondo.png);
+  background-image: url(../Multimedia/fondo.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40vw; }
