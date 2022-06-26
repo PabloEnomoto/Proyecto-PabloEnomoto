@@ -55,14 +55,12 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 100vw;
-        margin-left: 100vw;
     }
 
     .footer {
         grid-area: footer;
         background-color: black;
-        width: 200vw;
+        width: 65em;
     }
 
     .menu ul {
@@ -80,18 +78,16 @@
     }
 
     .cForm {
-        height: 100vw;
+        height: 100vh;
       }
 
       .formulario {
         font-size: 20px;
         display: flex;
         flex-direction: column;
-        margin-left: 0PX;
         margin-top: 50px;
         h1{
           text-align: center;
-          background-color: yellowgreen;
           font-weight: bold;
         }
       }

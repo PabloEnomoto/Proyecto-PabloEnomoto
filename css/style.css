@@ -6,10 +6,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "menu      menu      menu"
- "main      main      main"
- "main      main      main"
- "footer    footer    footer";
+  grid-template-areas: "menu      menu      menu" "main      main      main" "main      main      main" "footer    footer    footer";
   font-family: 'Comic Neue', cursive; }
 
 .formulario {
@@ -38,10 +35,9 @@
 .cForm {
   grid-area: main;
   padding-left: 30px;
-  background-image: url(../Multimedia/fondo.png);
+  background-image: url(/Multimedia/fondo.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 40vw; }
+  background-size: cover; }
 
 .main {
   grid-area: main;
@@ -178,13 +174,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    margin-right: 100vw;
-    margin-left: 100vw; }
+    align-items: center; }
   .footer {
     grid-area: footer;
     background-color: black;
-    width: 200vw; }
+    width: 65em; }
   .menu ul {
     display: flex;
     flex-direction: column; }
@@ -195,14 +189,12 @@
     .mainPersonajes p {
       width: 100vw; }
   .cForm {
-    height: 100vw; }
+    height: 100vh; }
   .formulario {
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    margin-left: 0PX;
     margin-top: 50px; }
     .formulario h1 {
       text-align: center;
-      background-color: yellowgreen;
       font-weight: bold; } }
