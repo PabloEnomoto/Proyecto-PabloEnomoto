@@ -10,7 +10,7 @@
     grid-template-areas:
         "menu      menu      menu"
         "main      main      main"
-        "form      form      form"
+        "main      main      main"
         "footer    footer    footer";
     font-family: 'Comic Neue', cursive;
 }
@@ -78,4 +78,21 @@
             width: 100vw;
         }
     }
+
+    .cForm {
+        height: 100vw;
+      }
+
+      .formulario {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0PX;
+        margin-top: 50px;
+        h1{
+          text-align: center;
+          background-color: yellowgreen;
+          font-weight: bold;
+        }
+      }
 }
