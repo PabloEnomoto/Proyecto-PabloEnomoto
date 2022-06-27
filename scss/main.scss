@@ -39,6 +39,7 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+        width: 200%;
     }
 
     .main {
@@ -47,6 +48,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: justify;
+        width: 200%;
     }
 
     .mainIndex{
@@ -55,20 +57,23 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        width: 200%;
     }
 
     .footer {
         grid-area: footer;
         background-color: black;
-        width: 65em;
+        width: 200%;
     }
 
     .menu ul {
         display: flex;
         flex-direction: column;
+        width: 200%;
     }
 
     .mainPersonajes{
+        grid-area: main;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -76,19 +81,14 @@
             width: 100vw;
         }
     }
-
-    .cForm {
-        height: 100vh;
-      }
-
-      .formulario {
-        font-size: 20px;
+    .cForm{
+        grid-area: main;
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
-        h1{
-          text-align: center;
-          font-weight: bold;
+        align-items: center;
+        img{
+            width: 300px;
         }
       }
+
 }
