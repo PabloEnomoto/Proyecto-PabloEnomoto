@@ -33,13 +33,24 @@
 
 @media (max-width: 815px) {
 
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "menu      menu      menu"
+            "main      main      main"
+            "main      main      main"
+            "footer    footer    footer";
+        font-family: 'Comic Neue', cursive;
+    }
+
     .header {
         grid-area: menu;
         display: flex;
-        justify-content: space-around;
+        font-size: 10px;
         flex-direction: column;
         align-items: center;
-        width: 200%;
     }
 
     .main {
@@ -47,48 +58,38 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: justify;
-        width: 200%;
+        width: 140vw;
+        img{
+            width: 100vw;
+        }
     }
 
-    .mainIndex{
-        grid-area: main;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        width: 200%;
-    }
 
     .footer {
         grid-area: footer;
         background-color: black;
-        width: 200%;
+        width: 140vw;
     }
 
     .menu ul {
         display: flex;
         flex-direction: column;
-        width: 200%;
     }
 
-    .mainPersonajes{
+    .mainPersonajes {
+        grid-area: main;
+    }
+
+    .cForm {
         grid-area: main;
         display: flex;
-        align-items: center;
         flex-direction: column;
-        p{
+        align-items: center;
+        width: 140vw;
+        img{
             width: 100vw;
         }
+
     }
-    .cForm{
-        grid-area: main;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        img{
-            width: 300px;
-        }
-      }
 
 }

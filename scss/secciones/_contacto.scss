@@ -3,8 +3,6 @@
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(180deg, #f9d585, #642b19, #ac9454);
-  align-items: stretch;
-  text-align: center;
 
   h1 {
     text-align: center;
@@ -24,8 +22,8 @@
 
 .cForm{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+padding: 3rem;
   select{
     margin: 10px;
   }
