@@ -130,9 +130,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center; }
-
-.imgPeliculas {
-  display: flex; }
+  .peliculas img {
+    padding: 20px; }
+  .peliculas button {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold; }
 
 .imgHistoria {
   float: left;
