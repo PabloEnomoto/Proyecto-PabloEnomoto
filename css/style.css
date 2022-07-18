@@ -52,8 +52,12 @@
   text-align: center; }
 
 .main p {
-  margin: 30px;
-  text-align: center; }
+  text-align: center;
+  width: 60vw;
+  border-radius: 20px;
+  padding: 20px;
+  color: black;
+  font-weight: bold; }
 
 #inicio {
   text-decoration: none;
@@ -136,6 +140,12 @@
     margin-bottom: 20px;
     padding: 10px;
     font-weight: bold; }
+  .peliculas h4 {
+    font-weight: bold; }
+  .peliculas button a {
+    text-decoration: none;
+    background-color: black;
+    text-transform: uppercase; }
 
 .imgHistoria {
   float: left;
@@ -148,10 +158,20 @@
   align-items: center; }
   .mainPersonajes p {
     font-weight: bold;
-    padding-bottom: 100px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
     text-align: justify; }
+  .mainPersonajes h1 {
+    font-weight: bold; }
+
+h4 {
+  font-weight: bold; }
+
+button a {
+  text-decoration: none;
+  background-color: black;
+  text-transform: uppercase; }
 
 @media (max-width: 815px) {
   .grilla {
@@ -190,4 +210,7 @@
     align-items: center;
     width: 140vw; }
     .cForm img {
-      width: 100vw; } }
+      width: 100vw; }
+  .peliculas img {
+    height: 450px;
+    width: 300px; } }

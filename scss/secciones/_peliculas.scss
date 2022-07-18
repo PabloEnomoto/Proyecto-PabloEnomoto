@@ -11,5 +11,14 @@
       padding: 10px;
       font-weight: bold;
     }
+    h4{
+      font-weight: bold;
+    }
+    button {
+      a {
+          @include btn-irArriba (black, none)
+      }
+
+  }
   }
   

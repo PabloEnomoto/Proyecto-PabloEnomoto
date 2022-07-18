@@ -1,0 +1,33 @@
+.formulario {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, #f9d585, #642b19, #ac9454);
+
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    margin: 1rem;
+    background-color: white;
+    font-weight: bold;
+  }
+}
+.form {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-weight: bold;
+}
+
+.cForm{
+  display: flex;
+  flex-direction: column;
+padding: 3rem;
+  select{
+    margin: 10px;
+  }
+  input{
+    margin: 10px;
+  }
+}
